@@ -1,7 +1,7 @@
 def addCheck(x, y, z):
     if x + y == z:
-        return("True")
+        return True
     elif x + y != z:
-        return("false")
+        return False
 
 print(addCheck(10, 3, 13))
